@@ -24,7 +24,7 @@ import ViewLecture from './pages/ViewLecture'
 import MyEnrolledCourses from './pages/MyEnrolledCourses'
 import getAllReviews from './customHooks/getAllReviews'
 import SearchWithAi from './pages/SearchWithAi'
-export const serverUrl="http://localhost:4000"
+export const serverUrl="https://lms-virtual-code-backend.onrender.com"
 
 const App = () => {
   getCurrentUser();
