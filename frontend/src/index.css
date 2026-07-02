@@ -18,7 +18,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: gradientText 2s linear infinite;
+  animation: gradientText 4s linear infinite;
 }
 
 @keyframes gradientText {
