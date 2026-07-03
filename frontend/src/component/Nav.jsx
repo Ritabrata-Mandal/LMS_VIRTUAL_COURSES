@@ -67,9 +67,9 @@ const Nav = () => {
 
                 { show && <div className='absolute top-[110%] right-[15%] flex items-center flex-col justify-center gap-2 text-[16px] rounded-md bg-[white] px-[15px] py-[10px] border-[2px] border-black hover:border-white hover:text-white hover:bg-black'>
                     {/* My profile part - large screen */}
-                    <span className='bg-black text-white px-[30px] py-[10px] rounded-2xl hover:bg-gray-600' onClick={()=>navigate('/profile')}>My Profile</span>
+                    <span className='bg-black text-white px-[30px] py-[10px] rounded-2xl hover:bg-gray-600 cursor-pointer' onClick={()=>navigate('/profile')}>My Profile</span>
 
-                    <span className='bg-black text-white px-[30px] py-[10px] rounded-2xl hover:bg-gray-600' onClick={()=>navigate("/mycourses")}>My Courses</span>
+                    <span className='bg-black text-white px-[30px] py-[10px] rounded-2xl hover:bg-gray-600 cursor-pointer' onClick={()=>navigate("/mycourses")}>My Courses</span>
                 </div>}
 
             </div>
