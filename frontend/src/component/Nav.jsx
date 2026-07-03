@@ -91,10 +91,10 @@ const Nav = () => {
                     </div>)}
 
                     {/* My profile */}
-                    <div className='w-[200px] h-[65px]  border-2 border-white text-white bg-black rounded-[10px] text-[18px] font-light cursor-pointer flex items-center justify-center' onClick={()=>navigate('/profile')}>My Profile</div>
+                    <div className='w-[200px] h-[65px]  border-2 border-white text-white bg-black rounded-[10px] text-[18px] font-light cursor-pointer flex items-center justify-center cursor-pointer' onClick={()=>navigate('/profile')}>My Profile</div>
 
                     {/* My courses */}
-                    <div className='w-[200px] h-[65px]  border-2 border-white text-white bg-black rounded-[10px] text-[18px] font-light cursor-pointer flex items-center justify-center' onClick={()=>navigate("/mycourses")}>My Courses</div>
+                    <div className='w-[200px] h-[65px]  border-2 border-white text-white bg-black rounded-[10px] text-[18px] font-light cursor-pointer flex items-center justify-center cursor-pointer' onClick={()=>navigate("/mycourses")}>My Courses</div>
 
                     {/* Dashboard */}
                     <div className='w-[200px] h-[65px]  border-2 border-white text-white bg-black rounded-[10px] text-[18px] font-light cursor-pointer flex items-center justify-center' onClick={()=>navigate('/dashboard')}>Dashboard</div>
