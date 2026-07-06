@@ -44,7 +44,7 @@ const Nav = () => {
             </div>
 
             <p className="flex-1 text-center text-sm text-gray-300 px-4">
-                Developed by Ritabrata Mandal (CSE, NIT Durgapur)
+                <span className='ml-2'>Developed by Ritabrata Mandal (CSE, NIT Durgapur)</span>
             </p>
 
             {/* user buttons */}
