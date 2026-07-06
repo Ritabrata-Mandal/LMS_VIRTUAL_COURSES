@@ -43,8 +43,8 @@ const Nav = () => {
                 <img src={logo} alt="" className='w-[60px] rouneded-[5px] border-2 border-white cursor-pointer' />
             </div>
 
-            <p className="flex-1 text-center text-sm text-gray-300 px-4">
-                <span className='ml-2 text-blue-400'>Developed by Ritabrata Mandal (CSE, NIT Durgapur)</span>
+            <p className="absolute left-1/2 -translate-x-1/2 text-sm text-blue-400 hidden lg:block">
+                Developed by Ritabrata Mandal (CSE, NIT Durgapur)
             </p>
 
             {/* user buttons */}
